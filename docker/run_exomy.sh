@@ -29,7 +29,7 @@ if [ "$1" != "" ]; then
                                 exit     
                                 ;;
         -c | --config)          
-                                container_name="${container_name}_config"
+                                container_name="${container_name}_config_v2"
                                 start_command="config"
                                 options="--rm"
                                 ;;
